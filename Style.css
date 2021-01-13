@@ -22,3 +22,50 @@ body {
     grid-template-columns: 30% 70%;
     grid-gap: 10px;
 }
+
+#header-img {
+    width: 100%;
+    height: 50px;
+    background-image: url("./optical.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#nav-bar {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(126, 126, 31);
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-link {
+    font-size: 12px;
+    font-family: poppins;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+#About {
+    width: 100%;
+    height: 300px;
+    background-color: chocolate;
+    display: grid;
+    grid-template-rows: 30% 70%;
+    grid-gap: 10px;
+}
+
+#About h1 {
+    font-size: 42px;
+    font-family: poppins;
+    padding: 5px;
+}
+#About p {
+    font-size: 18px;
+    font-family: poppins;
+    padding: 10px;
+}
