@@ -22,16 +22,22 @@ body {
     display: grid;
     grid-template-columns: 30% 70%;
     grid-gap: 10px;
+    position: fixed;
 }
 
-#header-img {
+#headerImg {
     width: 100%;
     height: 50px;
-    background-image: url("./optical.svg");
+    background-image: url("https://freesvg.org/img/optical.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+#header-img {
+    display: none;
+}
+
 
 #nav-bar {
     width: 100%;
@@ -64,17 +70,15 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /*
-    grid-template-rows: 30% 70%;
-    grid-gap: 10px;
-    */
 }
 
 #About h1 {
     font-size: 42px;
     font-family: poppins;
+    margin-top: 40px;
     padding: 5px;
 }
+
 #About p {
     font-size: 18px;
     font-family: poppins;
@@ -87,7 +91,7 @@ body {
     }
     
     #About {
-        height: 400px;
+        height: 430px;
     }
 
     #About h1 {
@@ -117,7 +121,6 @@ body {
 }
 
 .premiumIcon {
-    /* height: 100px; */
     width: 82px;
     background-image: url("./diamond.svg");
     background-position: center;
@@ -137,7 +140,7 @@ body {
 
 .qualityIcon {
     width: 82px;
-    background-image: url("./quality-assurance.svg");
+    background-image: url("https://www.flaticon.com/svg/vstatic/svg/2649/2649798.svg?token=exp=1610646201~hmac=12c57329928c0f4774f73b68b9359a54");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -222,9 +225,6 @@ body {
     max-width: 200px;
     height: 215px;
     background: rgb(163, 86, 86);
-    /*
-    padding: 20px 15px;
-    margin: 30px 10px;*/
     display: flex;
     flex-direction: column;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);

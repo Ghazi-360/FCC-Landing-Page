@@ -9,7 +9,9 @@
 <body>
     <div id="Container">
         <header id="header">
-            <div id="header-img"></div>
+            <div id="headerImg">
+                <img id="header-img" src="https://freesvg.org/img/optical.png" alt="Logo" id="header-img">
+            </div>
             <nav id="nav-bar">
                 <a class="nav-link" href="#About">About</a>
                 <a class="nav-link" href="#Features">Features</a>
@@ -60,7 +62,7 @@
             </div>
         </div>
         <div id="Video">
-            <iframe height="315px" width="560px" src="https://www.youtube.com/embed/wwM9mnw4v4s" allowfullscreen="true"></iframe>
+            <iframe id="video" height="315px" width="560px" src="https://www.youtube.com/embed/wwM9mnw4v4s" allowfullscreen="true"></iframe>
         </div>
         <div id="Products">
             <div class="card">
@@ -82,10 +84,10 @@
                 </div>
             </div>
         </div>
-        <form id="form" action=""https://www.freecodecamp.com/email-submit"">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
             <h2>Subscribe to our Newsletter!</h2>
-            <input id="email" type="email" placeholder="Enter your email" required>
-            <input id="submit" type="submit" value="submit">
+            <input name="email" id="email" type="email" placeholder="Enter your email" required>
+            <input name="submit" id="submit" type="submit" value="subscribe">
         </form>
         <footer id="footer">
             <ul>
@@ -96,5 +98,6 @@
             <span>Copyright 2021, Ghazi 360</span>
           </footer>
     </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
