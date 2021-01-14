@@ -17,7 +17,7 @@ body {
 
 #header {
     width: 100%;
-    height: auto;
+    height: 50px;
     background-color: red;
     display: grid;
     grid-template-columns: 30% 70%;
