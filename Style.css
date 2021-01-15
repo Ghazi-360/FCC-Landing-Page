@@ -19,10 +19,10 @@ body {
 #header {
     width: 100%;
     height: 50px;
-    background-color: red;
     display: grid;
     grid-template-columns: 30% 70%;
     position: fixed;
+    background-color: #ddd;
 }
 
 #headerImg {
@@ -42,7 +42,6 @@ body {
 #nav-bar {
     width: 100%;
     height: 50px;
-    background-color: rgb(126, 126, 31);
     text-align: center;
     display: flex;
     justify-content: space-evenly;
@@ -53,20 +52,19 @@ body {
     font-size: 18px;
     font-family: poppins;
     text-decoration: none;
-    color: white;
-    border-bottom: 2px solid black;
+    color: #000;
+    border-bottom: 2px solid #fff;
 }
 
 .nav-link:hover {
     transition: .8s;
-    color: black;
-    border-bottom: 2px solid white;
+    color:#fff;
+    border-bottom: 2px solid #000;
 }
 
 #About {
     width: 100%;
     height: 300px;
-    background-color: chocolate;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -106,7 +104,6 @@ body {
 #Features {
     width: 100%;
     height: 500px;
-    background-color: brown;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -193,7 +190,6 @@ body {
 #Video {
     width: 100%;
     height: 400px;
-    background-color: chartreuse;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,7 +202,6 @@ body {
 #Products {
     width: 100%;
     height: 300px;
-    background-color: darkorchid;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -223,7 +218,7 @@ body {
 .card {
     max-width: 200px;
     height: 215px;
-    background: rgb(163, 86, 86);
+    background: #ddd;
     display: flex;
     flex-direction: column;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
@@ -287,7 +282,6 @@ body {
 #form {
     width: 100%;
     height: 200px;
-    background-color: dodgerblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -311,11 +305,12 @@ body {
     font-size: 18px;
     font-family: poppins;
     box-sizing: border-box;
+    background: #ddd;
 }
 
 #submit {
-    width: 100px;
-    height: 40px;
+    width: 120px;
+    height: 50px;
     margin-top: 10px;
     font-size: 20px;
     font-family: poppins;
@@ -324,6 +319,7 @@ body {
     outline: none;
     cursor: pointer;
     text-align: center;
+    background: #ddd;
 }
 
 @media only screen and (max-width: 425px) {
